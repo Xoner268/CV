@@ -8,10 +8,12 @@
 }
 
 body {
-    background: #585c68;
+    background-image: url(https://pbs.twimg.com/media/FWI2g6EXgAEu4py?format=jpg&name=large);
+    background-size: cover;
+    background-size: center center ;
     font-size: 14px;
     line-height: 22px;
-    color: #555555;
+    color: #151529;
 }
 
 .bold {
@@ -30,11 +32,12 @@ body {
     height: auto;
     display: flex;
     margin: 50px auto;
+    text-decoration: none;
 }
 
 .resume .resume_left {
     width: 280px;
-    background: #0bb5f4;
+    background: #151529;
 }
 
 .resume .resume_left .resume_profile {
@@ -56,16 +59,16 @@ body {
 }
 
 .resume .resume_left .bold {
-    color: #fff;
+    color: #d0eaff;
 }
 
 .resume .resume_left .regular {
-    color: #b1eaff;
+    color: #5994d3;
 }
 
 .resume .resume_item {
     padding: 25px 0;
-    border-bottom: 2px solid #b1eaff;
+    border-bottom: 2px solid #151529;
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -86,12 +89,15 @@ body {
 .resume .resume_left ul li .icon {
     width: 35px;
     height: 35px;
-    background: #fff;
-    color: #0bb5f4;
+    background: #c6e5ff;
+    color: #151529;
     border-radius: 50%;
     margin-right: 15px;
     font-size: 16px;
     position: relative;
+    
+    
+    
 }
 
 .resume .icon i,
@@ -103,13 +109,14 @@ body {
 }
 
 .resume .resume_left ul li .data {
-    color: #b1eaff;
+    color: #b0b7d2;
+    text-decoration: none;
 }
 
 .resume .resume_left .resume_skills ul li {
     display: flex;
     margin-bottom: 10px;
-    color: #b1eaff;
+    color: #2a5f8e;
     justify-content: space-between;
     align-items: center;
 }
@@ -122,7 +129,7 @@ body {
     width: 60%;
     margin: 0 5px;
     height: 5px;
-    background: #009fd9;
+    background: #97ccef;
     position: relative;
 }
 
@@ -145,12 +152,12 @@ body {
 
 .resume .resume_right {
     width: 520px;
-    background: #fff;
+    background: #bec6c3;
     padding: 25px;
 }
 
 .resume .resume_right .bold {
-    color: #0bb5f4;
+    color: #125941;
 }
 
 .resume .resume_right .resume_work ul,
@@ -186,7 +193,7 @@ body {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    border: 2px solid #0bb5f4;
+    border: 2px solid #125941;
 }
 
 .resume .resume_right .resume_work ul li:after,
@@ -197,21 +204,20 @@ body {
     left: -21px;
     width: 2px;
     height: 115px;
-    background: #0bb5f4;
+    background: #125941;
 }
 
 .resume .resume_right .resume_hobby ul {
-    display: flex;
+    display: row;
     justify-content: space-between;
 }
 
 .resume .resume_right .resume_hobby ul li {
-    width: 80px;
-    height: 80px;
-    border: 2px solid #0bb5f4;
-    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
     position: relative;
-    color: #0bb5f4;
+    color: #1e395e;
 }
 
 .resume .resume_right .resume_hobby ul li i {
@@ -219,21 +225,13 @@ body {
 }
 
 .resume .resume_right .resume_hobby ul li:before {
-    content: "";
-    position: absolute;
     top: 40px;
-    right: -52px;
-    width: 50px;
     height: 2px;
-    background: #0bb5f4;
+    background: #476db6;
 }
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
     display: none;
 }
-
-body {
-    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-    width: 100%;
-    height: auto;
-}
+.lienket
+{text-decoration: none}
